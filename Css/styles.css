@@ -7,4 +7,15 @@
 
 .conteiner {
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .conteiner h2 {
+        margin: auto;
+    }
+
+#fotoPerfil {
+    display: flex;
+    justify-content: center;
 }
