@@ -31,7 +31,7 @@
     padding: 0.5em;
 }
     #lista ul li {
-        text-decoration: none;
+        list-style: none;
     }
 #pais {
     margin-left: 1.7em;
