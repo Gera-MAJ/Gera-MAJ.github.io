@@ -45,7 +45,7 @@
 .botones {
     display: flex;
     justify-content: center;
-    margin: 0.6em;
+    margin: 0.7em;
 }
 
 .repositorio {
@@ -71,6 +71,18 @@
 
     .repositorio ul {
         margin-left: 0px;
+    }
+
+    #fotoPerfil {
+        width:23rem;
+    }
+
+    .botones {
+        margin: -20px 0px 30px 0px; 
+    }
+
+    .repositorio {
+        margin: -20px 0px 1em 0px ;
     }
 }
     
