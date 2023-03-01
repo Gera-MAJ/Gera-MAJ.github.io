@@ -16,12 +16,12 @@
     .conteiner h2 {
         margin: auto;
         padding: 1em;
+        font-family: 'Montserrat', sans-serif;
     }
 
 #fotoPerfil {
     display: flex;
     justify-content: center;
-   
 }
 
 #lista {
@@ -50,10 +50,21 @@
     display: none;
     padding: 10px;
 }
+    .repositorio p {
+        text-align: center;
+    }
+        .repositorio ul {
+            margin-left: 18rem;
+        }
 
+        
 @media screen and (max-width: 768px) {
     #lista ul li {
         text-align: center;
+    }
+
+    .repositorio ul {
+        margin-left: 0px;
     }
 }
     
