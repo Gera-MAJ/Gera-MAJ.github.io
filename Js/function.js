@@ -17,7 +17,8 @@ window.onload = () => {
             titulo.style.display = 'none'
         }
     }
-
+    
+    // esto se coloca, para que no haga la carga de la función cuando presione en el botón, con esto, la carga de la función ya está realizada
     btnTitulo();
 
     function btnLaboral() {
