@@ -6,7 +6,7 @@
 }
 
 .conteiner {
-    background-color: aquamarine;
+    background-color: rgb(232, 224, 235);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,18 +21,21 @@
 #fotoPerfil {
     display: flex;
     justify-content: center;
+   
 }
 
 #lista {
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 15px;
     padding: 0.5em;
 }
     #lista ul li {
         list-style: none;
+        margin: 0.5em;
     }
+    
 #pais {
     margin-left: 1.7em;
 }
@@ -40,8 +43,17 @@
 .botones {
     display: flex;
     justify-content: center;
+    margin: 0.6em;
 }
 
 .repositorio {
     display: none;
+    padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    #lista ul li {
+        text-align: center;
+    }
+}
+    
