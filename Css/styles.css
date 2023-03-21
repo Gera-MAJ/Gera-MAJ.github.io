@@ -13,8 +13,8 @@ body {
 .conteiner {
     background-color: rgb(232, 224, 235);
     display: grid;
-    grid-template-columns: 30% auto;
-    max-width: 1000px;
+    grid-template-columns: 30% 70%;
+    max-width: 1200px;
     padding: 10px;
 }
     .conteiner h2 {
@@ -23,15 +23,29 @@ body {
         font-family: 'Montserrat', sans-serif;
     }
 
+.leftSide {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 354px;
+}
+
+.rightSide {
+    border: 2px solid green;
+    width: 826px;
+}
+
 
 #fotoPerfil {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: auto;
 }
 
 #lista {
-    display: flex;
-    justify-content: center;
+    
     /* border: 2px solid black; */
     margin: 15px;
     padding: 0.5em;
@@ -52,9 +66,11 @@ body {
     margin: 0.7em;
 }
 
+
 .repositorio {
     display: none;
     padding: 10px;
+    
 }
     .repositorio p {
         text-align: center;
