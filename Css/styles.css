@@ -84,7 +84,7 @@ body {
     flex-direction: column;
 }
     .repositorio p {
-        text-align: center;
+        text-align: start;
         font-family: 'PT Sans', sans-serif;
     }
         /* .repositorio ul {
@@ -93,7 +93,45 @@ body {
             .repositorio ul li {
                 font-family: 'PT Sans', sans-serif;
             }
+#hability {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+    #hability i {
+        grid-column: 1 / span 3;
+    }
+        #hability h3 {
+            grid-column: 1 / span 3;
+        }
 
+.barra {
+    background-color: azure;
+    margin: 0rem 1rem 1rem 1rem;
+    height: 1.2rem;
+    width: 90%;
+}
+    .progreso1 {
+        background-color: aquamarine;
+        height: 1.2em;
+        width: 90%;
+    }
+        .progreso2 {
+            background-color: aquamarine;
+            height: 1.2em;
+            width: 50%;
+        }   
+            .progreso3 {
+                height: 1.2em;
+                width: 60%;
+                background-color: aquamarine;
+            }  
+                    .conteinerBarra{
+                    display: flex;
+                    flex-direction: column;
+                }
+                    .conteinerBarra p {
+                        margin: auto;
+                    }
 
 @media screen and (max-width: 768px) {
     #lista ul li {
