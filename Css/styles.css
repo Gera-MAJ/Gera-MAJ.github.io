@@ -13,7 +13,7 @@ body {
 .conteiner {
     background-color: rgb(232, 224, 235);
     display: grid;
-    grid-template-columns: 30% auto;
+    grid-template-columns: 30% 70%;
     max-width: 1000px;
     padding: 10px;
 }
@@ -23,13 +23,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 300px;
+    /* width: 300px; */
    
 }
 
 .rightSide {
     border: 2px solid green;
-    
+    padding: 1rem;
 }
 
 .name {
@@ -80,17 +80,16 @@ body {
 
 
 .repositorio {
-    display: none;
-    padding: 10px;
-    
+    display: flex;
+    flex-direction: column;
 }
     .repositorio p {
         text-align: center;
         font-family: 'PT Sans', sans-serif;
     }
-        .repositorio ul {
+        /* .repositorio ul {
             margin-left: 18rem;
-        }
+        } */
             .repositorio ul li {
                 font-family: 'PT Sans', sans-serif;
             }

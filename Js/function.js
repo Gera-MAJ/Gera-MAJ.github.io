@@ -11,11 +11,11 @@ window.onload = () => {
     function btnTitulo() {
         // acá se hace un IF común, clásico
 
-        if (titulo.style.display == 'none') {
-            titulo.style.display = 'block'
-        }else{
-            titulo.style.display = 'none'
-        }
+        // if (titulo.style.display == 'none') {
+        //     titulo.style.display = 'block'
+        // }else{
+        //     titulo.style.display = 'none'
+        // }
     }
     
     // esto se coloca, para que no haga la carga de la función cuando presione en el botón, con esto, la carga de la función ya está realizada
@@ -24,7 +24,7 @@ window.onload = () => {
     function btnLaboral() {
         // este es un IF es resumido, con menos lineas de código, pero es exactamente lo mismo
 
-        laboral.style.display == 'none' ? laboral.style.display = 'block' : laboral.style.display ='none';
+        // laboral.style.display == 'none' ? laboral.style.display = 'block' : laboral.style.display ='none';
     }
 
     btnLaboral();
