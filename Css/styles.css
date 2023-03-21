@@ -109,20 +109,21 @@ body {
     margin: 0rem 1rem 1rem 1rem;
     height: 1.2rem;
     width: 90%;
+    border: 2px solid black;
 }
     .progreso1 {
         background-color: aquamarine;
-        height: 1.2em;
+        height: 0.95em;
         width: 90%;
     }
         .progreso2 {
             background-color: aquamarine;
-            height: 1.2em;
-            width: 50%;
+            height: 0.95em;
+            width: 70%;
         }   
             .progreso3 {
-                height: 1.2em;
-                width: 60%;
+                height: 0.95em;
+                width: 50%;
                 background-color: aquamarine;
             }  
                     .conteinerBarra{
