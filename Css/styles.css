@@ -61,6 +61,15 @@ body {
     margin: auto;
     padding-top: 1rem;
 }
+    #lista2,
+    #lista3{
+        padding: 0px 1rem 0rem 0rem;
+        margin: auto;
+    }
+        #lista2 ul,
+        #lista3 ul {
+            padding: 0px 0px 0px 1rem;
+        }
     #lista ul li i {
         color: rgb(246, 113, 19);
     }
@@ -77,11 +86,18 @@ body {
 #lista2 ul li,
 #lista3 ul li{
     color: aliceblue;
+    
 }        
     #lista2 ul li i,
     #lista3 ul li i {
         color: rgb(246, 113, 19);
     }
+        #lista2 ul li {
+            margin: 1rem 0rem;
+        }
+            #lista3 ul li i {
+                margin: 0.3rem 0rem;
+            }
 #pais {
     margin-left: 1.7em;
 }
