@@ -123,6 +123,9 @@ body {
             .repositorio ul li {
                 font-family: 'PT Sans', sans-serif;
             }
+                .repositorio i {
+                    margin-top: 1.3rem;
+                }
 #hability {
     display: grid;
     grid-template-columns: 33% 33% 33%;
