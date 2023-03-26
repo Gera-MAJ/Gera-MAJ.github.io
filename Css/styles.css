@@ -164,6 +164,14 @@ body {
                         margin: auto;
                     }
 
+.table tr {
+    border-bottom: 2px solid black;
+}
+    .table tr th,
+    .table tr td {
+        border-left: 2px solid black;
+    }
+
 @media screen and (max-width: 768px) {
     #lista ul li {
         text-align: center;
