@@ -165,6 +165,7 @@ body {
                 }
                     .conteinerBarra p {
                         margin: auto;
+                        
                     }
 
 .table tr {
@@ -186,6 +187,16 @@ body {
         grid-column: 1 / span 2;
     }
 
+    #fotoPerfil img{
+        margin: auto;
+        aspect-ratio: 1 / 1;
+        width: 100%;  
+    }
+
+    #lista ul{
+        padding: 0px;
+    }
+
     #lista ul li {
         text-align: center;
     }
@@ -205,5 +216,17 @@ body {
     .repositorio {
         margin: -20px 0px 1em 0px ;
     }
+
+    .conteinerBarra p {
+        text-align: center;
+        width: 60%;
+    }
+        .conteinerBarra {
+            justify-content: center;
+        }
+
+    #btnLaboral {
+        margin-top: 1.2rem;
+    }    
 }
     
