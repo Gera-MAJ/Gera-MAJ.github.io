@@ -181,6 +181,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .leftSide,
+    .rightSide {
+        grid-column: 1 / span 2;
+    }
+
     #lista ul li {
         text-align: center;
     }
